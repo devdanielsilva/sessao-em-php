@@ -1,4 +1,6 @@
 <?php
+    //Inicia a sessão
+    //A função session_start(); deve ser a primeira coisa no seu documento. Antes de qualquer tag HTML.
     session_start();
 ?>
 <!DOCTYPE html>
@@ -11,8 +13,7 @@
 </head>
 <body>
     <?php
-    //Inicia a sessão
-    //A função session_start(); deve ser a primeira coisa no seu documento. Antes de qualquer tag HTML.
+    //Defini variáveis de sessão
     $_SESSION ["favcolor"] = "Red";
     $_SESSION ["favanimal"] = "Dog";
     $_SESSION ["time"] = "São Paulo Fc";

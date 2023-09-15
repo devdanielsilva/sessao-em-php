@@ -11,7 +11,8 @@
 </head>
 <body>
     <?php
-
+    echo "A cor favorita é" .$_SESSION ["favcolor"]. ".<br>";
+    
     ?>
 </body>
 </html>
