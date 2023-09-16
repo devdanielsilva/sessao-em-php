@@ -11,8 +11,10 @@
 </head>
 <body>
     <?php
+    //Aplica echo nas variáveis de sessão que foram definidas na página html anterior.
     echo "A cor favorita é" .$_SESSION ["favcolor"]. ".<br>";
-    
+    echo "A cor favorita é" .$_SESSION ["favanimal"]. ".<br>";
+    echo "A cor favorita é" .$_SESSION ["time"]. ".<br>";
     ?>
 </body>
 </html>

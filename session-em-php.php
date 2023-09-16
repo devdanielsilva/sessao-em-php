@@ -12,6 +12,7 @@
     <title>Teste de Sessão em PHP</title>
 </head>
 <body>
+    <button onclick="minhaFuncao()"><a href="../sessao-em-php2.php/">Sessão 2 </a></button>
     <?php
     //Defini variáveis de sessão
     $_SESSION ["favcolor"] = "Red";
